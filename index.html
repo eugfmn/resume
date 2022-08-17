@@ -6,63 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="html, css, tags, course">
     <meta name="description" content="Это страница для курса HTML/CSS">
+    <link  rel="stylesheet" href="style.css">
     <title>Пип</title>
 </head>
-<body>
-<img src="img/Без названия.jpg">
+<body class="container">
+    <header>
+        <div class="card_a">
+            <div class="first">
+<img src="img/me.jpg" class="me">
+<div class="info">
 <h1>Евгения Фоминых</h1>
-<p>Я учусь на веб-дизайнера, хочу научиться <strong>грамотной верстке</strong></p>
-<hr>
-<p>Люблю дизайн, <em>блинчкики и мемы про котов</em></p>
-<h3>Cсылки</h3>
-<a href="https://vk.com/eugfmn" target="_blank">Тык</a>
+<p>Я учусь на веб-дизайнера, хочу научиться грамотной верстке <br> Люблю дизайн, блинчкики и мемы про котов</p>
+
+<h2>Портфолио</h2>
+<a href="https://www.behance.net/eugfmnf08f" target="_blank">Behance</a>
+|
+<a href="https://dribbble.com/eug_fmn" target="_blank">Dribbble</a>
+</div>
+</div>
+</header>
+<section class="content_b">
+    <div class="card_a">
 <h2>Мои хобби</h2>
-<ul>
+<ol>
     <li>Читать книжки</li>
     <li>Веб дизайн</li>
     <li>Учиться</li>
-</ul>
+</ol>
+    </div>
+    <div class="card_a">
 <h2>Опыт работы</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-    </thead>
+<table class="table">
     <tbody>
         <tr>
-            <td>Frilance</td>
+            <td>Freelance</td>
             <td>Graphic Designer</td>
             <td>2020-2022</td>
         </tr>
         <tr>
-            <td>Design Dealers</td>
+            <td>DesignDealers</td>
             <td>SMM designer</td>
             <td>2022</td>
         </tr>
     </tbody>
 </table>
+    </div>
+    <div class="card_a">
 <h2>Связаться со мной</h2>
-<form action="/">
-    <div>
+<form action="/" class="form">
+    <div class="form_r">
+    <div class="form_g">
         <label for="name">Ваше имя</label>
         <input type="text" id="name" placeholder="Введите имя">
     </div>
     <br>
-    <div>
+    <div class="form_g">
         <label for="email">Ваш Email</label>
         <input type="email" id="email" placeholder="Введите email">
     </div>
+</div>
     <br>
-    <div>
+    <div class="form_g">
         <label for="massage">Сообщение</label>
         <textarea id="massage" cols="20" rows="5" placeholder="Введите сообщение"></textarea>
     </div>
     <br>
-    <input type="submit" value="Отправить">
+    
 </form>
-<span class=""></span>
+<button class="btn">Отправить</button>
+</div>
+</section>
 </body>
 </html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+* {
+    color: rgb(46, 46, 46);
+
+}
+body {
+    background: #efff87;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    font-size: 20px;
+}
+.first {
+    margin-bottom: 30px;
+    display: flex;}
+
+
+.info {
+    margin-left: 30px;
+}
+@media (max-width: 650px){
+    .first{
+    display: block;
+    text-align: center;
+}
+}
+.container {
+    margin: auto;
+    max-width: 1080px;}
+.card_a{
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 30px ;
+    margin: 20px 20px 20px 20px;
+}
+.me {
+    width: 300px;
+    height:fit-content;
+    border-radius: 18px;
+}
+
+.card_a p{
+    font-size: 20px;
+    font-style: italic;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    transition: all .5s;
+}
+a:hover {
+    color: #ff0095;
+}
+.btn {
+    font-family: inherit;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    color: #ffffff;
+    background-color: black;
+}
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: #b7b7b7;
+}
+.table {
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+.table td {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.form_g label {
+    display: block;
+}
+
+.form_g input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #b7b7b7;
+    padding: 20px 0 10px;
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.form_r {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form_r .form_g {
+    margin-right: 20px;
+    width: 50%;
+}
+@media (max-width: 650px){
+    .form_r{
+    display: block;
+ }
+    .form_r .form_g {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+ }
+}
